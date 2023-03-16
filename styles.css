@@ -62,11 +62,13 @@ main{
   flex-grow: 1;
 }
 
-.image  {
-  background-color: red;
+.image-container  {
   flex:1;
   margin: 12px 0 12px 24px;
-  height: 400px;
+}
+
+.image{
+  width: 100%;
 }
 
 .footer-container{
