@@ -2,6 +2,8 @@ body,
 html {
   font-family: 'Helvetica', 'Arial', sans-serif;
   font-size: 30px;
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
@@ -15,8 +17,13 @@ p {
   font-weight: normal;
 }
 
-.site {
+.flex-row {
   display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
 }
 
 .side-bar-container {
@@ -48,6 +55,21 @@ p {
   flex-basis: 49%;
 }
 
+.work-description-container {
+  margin: 50px;
+}
+
+.learn-more-button {
+  max-width: 125px;
+  height: 40px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.work-image-container {
+  margin: 0 0 20px 20px;
+}
+
 img {
   background-repeat: no-repeat;
   background-size: cover;
@@ -65,7 +87,7 @@ img {
 }
 
 .nav-item-padding {
-  padding-left: 25px;
+  padding-right: 25px;
 }
 
 a {
