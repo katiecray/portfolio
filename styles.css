@@ -88,7 +88,7 @@ img {
 }
 
 .nav-item-padding {
-  padding-right: 25px;
+  padding-right: 50px;
 }
 
 a {
@@ -101,4 +101,13 @@ a {
   width: 30px;
   height: 30px;
   transform: rotate(180deg);
+}
+
+.underline-on-hover {
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+.underline-on-hover:hover {
+  border-bottom: 2px solid rgb(21, 0, 211);
 }
