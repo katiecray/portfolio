@@ -35,6 +35,11 @@ p {
   margin-top: 400px;
 }
 
+.side-bar-placement-logo {
+  transform: rotate(-90deg);
+  margin-top: 8px;
+}
+
 .work-underline {
   border: none;
   height: 3px;
@@ -60,10 +65,14 @@ p {
 }
 
 .learn-more-button {
-  max-width: 125px;
+  width: 125px;
   height: 40px;
   background-color: white;
   cursor: pointer;
+}
+
+.learn-more-button:hover {
+  border-color: blue;
 }
 
 .work-image-container {
@@ -100,6 +109,11 @@ a {
   width: 30px;
   height: 30px;
   transform: rotate(180deg);
+}
+
+.sidebar-logo {
+  width: 30px;
+  height: 30px;
 }
 
 .underline-on-hover {
