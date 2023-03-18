@@ -52,6 +52,7 @@ p {
   border-left: 2px solid black;
   height: 100px;
   margin-left: 50%;
+}
 
 .image-row {
   display: flex;
