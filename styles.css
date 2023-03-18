@@ -27,10 +27,18 @@ p {
 }
 
 .side-bar-container {
-  width: 100px;
+  max-width: 100px;
+  margin-top: 300px;
+  text-align: center;
 }
 
 .side-bar-content {
+  margin-top: 400px;
+  align-items: center;
+  display: inline-flex;
+}
+
+.side-bar-placement-logo {
   transform: rotate(-90deg);
   margin-top: 400px;
 }
@@ -40,13 +48,10 @@ p {
   margin-top: 8px;
 }
 
-.work-underline {
-  border: none;
-  height: 3px;
-  background-color: black;
-  margin: 0;
-  width: 300px;
-}
+.work-line {
+  border-left: 2px solid black;
+  height: 100px;
+  margin-left: 50%;
 
 .image-row {
   display: flex;
