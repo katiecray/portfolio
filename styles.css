@@ -28,19 +28,14 @@ p {
 
 .side-bar-container {
   max-width: 100px;
-  margin-top: 300px;
+  margin-top: 400px;
   text-align: center;
 }
 
-.side-bar-content {
-  margin-top: 400px;
-  align-items: center;
-  display: inline-flex;
-}
-
-.side-bar-placement-logo {
+.side-bar-text {
   transform: rotate(-90deg);
-  margin-top: 400px;
+  white-space: nowrap;
+  width: 100px;
 }
 
 .side-bar-placement-logo {
@@ -120,6 +115,7 @@ a {
 .sidebar-logo {
   width: 30px;
   height: 30px;
+  transform: rotate(-90deg);
 }
 
 .underline-on-hover {
