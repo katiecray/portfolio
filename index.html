@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./styles.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
+
+  
   <body>
     <div class="flex-row">
       <div class="side-bar-container">
@@ -16,6 +18,7 @@
         <div class="work-line"></div>
       </div>
       <div class="content-container">
+
         <header>
           <ul class="nav-list">
             <li class="nav-list-item">
@@ -34,6 +37,8 @@
             </div>
           </ul>
         </header>
+
+
         <main>
           <div class="image-row">
             <div class="image-container">
@@ -96,6 +101,8 @@
             </div>
           </div>
         </main>
+
+
         <footer>
           <ul class="nav-list">
             <li class="nav-list-item nav-item-padding">
@@ -109,8 +116,18 @@
             </li>
           </ul>
         </footer>
+
+
       </div>
     </div>
     <script src="index.js"></script>
+
+    <script>
+      // check if the screen width is less than or equal to 768px (adjust as needed)
+      if (screen.width <= 768) {
+        // redirect to the mobile version of the page
+        window.location = "mobile.html";
+      }
+    </script>
   </body>
 </html>

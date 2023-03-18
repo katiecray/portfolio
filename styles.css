@@ -26,6 +26,12 @@ p {
   flex-direction: column;
 }
 
+.flex-column-sub {
+  display: flex;
+  flex-direction: column;
+  margin-top:15px;
+}
+
 .side-bar-container {
   max-width: 100px;
   margin-top: 400px;
@@ -53,7 +59,14 @@ p {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 8px;
+  padding: 15px;
+}
+
+.image-row-sub {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 15px;
 }
 
 .image-container {
@@ -62,7 +75,11 @@ p {
 }
 
 .work-description-container {
-  margin: 50px;
+  width: 90%;
+  margin: 15px 50px 50px 35px;
+}
+.work-description-container-inner {
+  margin: 20px;
 }
 
 .learn-more-button {
@@ -70,7 +87,15 @@ p {
   height: 40px;
   background-color: white;
   cursor: pointer;
+  margin-top: 20px;
 }
+
+.icon-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
 
 .learn-more-button:hover {
   border-color: blue;
@@ -78,6 +103,10 @@ p {
 
 .work-image-container {
   margin: 0 0 20px 20px;
+}
+
+.work-image-container-sub {
+  margin: 0 0 20px 50px;
 }
 
 img {
@@ -107,9 +136,16 @@ a {
 }
 
 .small-icon {
+margin-top: 30px;
   width: 30px;
   height: 30px;
   transform: rotate(180deg);
+}
+
+.med-icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
 }
 
 .sidebar-logo {
