@@ -109,6 +109,10 @@ p {
   margin: 0 0 20px 50px;
 }
 
+.work-image-container-mobile {
+margin: 50px;
+}
+
 img {
   background-repeat: no-repeat;
   background-size: cover;
@@ -161,4 +165,8 @@ margin-top: 30px;
 
 .underline-on-hover:hover {
   border-bottom: 2px solid rgb(21, 0, 211);
+}
+
+.sub-title{
+  padding-left: 30px;
 }
