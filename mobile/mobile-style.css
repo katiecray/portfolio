@@ -103,6 +103,11 @@ nav ul::after {
   margin: 0px 0px 10px 0px;
 }
 
+.img-mobile-vid {
+  width: 100%;
+  margin: 10px 0px 10px 0px;
+}
+
 img {
   width: 100%;
 }
