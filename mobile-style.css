@@ -15,17 +15,23 @@ h1 {
 p {
   font-size: 14px;
   font-weight: normal;
+
 }
 
 .icon-container {
-  margin-top: 10px;
   display: flex;
   flex-direction: row;
 }
 
 nav {
-  padding: 20px 20px 00px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
   box-sizing: border-box;
+  background-color: white;
+  z-index: 1;
 }
 
 ul {
@@ -69,7 +75,8 @@ nav ul::after {
 .med-icon {
   width: 30px;
   height: 30px;
-  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
 }
 
 
@@ -77,27 +84,37 @@ nav ul::after {
   display: flex;
 }
 
-.work-description-container {
-  width: 90%;
-  margin: 15px 20px 20px 35px;
+.contact-description-container {
+  width: 100%;
+  margin: 10px 30px;
 }
 
-.learn-more-button {
-  width: 125px;
-  height: 40px;
-  background-color: white;
-  cursor: pointer;
-  margin-top: 20px;
-}
 
 .image-row {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px;
+  margin: 30px;
+}
+
+
+.img-mobile {
+  width: 100%;
+  margin: 10px;
 }
 
 img {
   width: 100%;
-  margin-bottom: 20px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0.1px;
+  width: 100%;
+  text-align: left;
+  background-color: white;
+}
+
+footer p {
+  margin-left: 25px;
 }
