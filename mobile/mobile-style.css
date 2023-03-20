@@ -164,23 +164,17 @@ footer p {
 }
 
 
-.video-player-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10px;
+.video-container {
+  margin-left: 50px;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
 }
+.video-container iframe {
 
-.video-player-box video {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: auto;
-}
-
-video::-webkit-media-controls {
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
-
-video:hover::-webkit-media-controls {
-  opacity: 1;
+  height: 100%;
 }
