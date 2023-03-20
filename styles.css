@@ -33,10 +33,11 @@ p {
   display: flex;
   flex-direction: column;
   margin-top:15px;
+  flex-basis: 70%;
 }
 
 .side-bar-container {
-  max-width: 100px;
+  max-width: 70px;
   margin-top: 400px;
   text-align: center;
 }
@@ -55,7 +56,7 @@ p {
 .work-line {
   border-left: 2px solid black;
   height: 100px;
-  margin-left: 50%;
+  margin-left: 70%;
 }
 
 .image-row {
@@ -79,8 +80,9 @@ p {
 }
 
 .work-description-container {
-  width: 90%;
+  flex-basis: 30%;
   min-width: 280px;
+  max-width: 520px;
   margin: 16px 20px 50px 40px;
 }
 .work-description-container-inner {
@@ -163,6 +165,7 @@ margin-top: 30px;
 }
 
 .sidebar-logo {
+  margin-left:40%;
   width: 30px;
   height: 30px;
   transform: rotate(-90deg);
