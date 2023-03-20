@@ -80,7 +80,7 @@ p {
 .work-description-container {
   width: 90%;
   min-width: 280px;
-  margin: 16px 20px 50px 35px;
+  margin: 16px 20px 50px 40px;
 }
 .work-description-container-inner {
   margin: 10px 20px 0px 20px;
@@ -214,4 +214,9 @@ h2 {
   100% {
     left: -100%;
   }
+}
+
+.a-inline {
+  border-bottom: 2px solid rgb(21, 0, 211);
+  text-decoration: none;
 }
